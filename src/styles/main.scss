@@ -1,0 +1,259 @@
+@import 'components/header.scss';
+@import 'components/button.scss';
+@import 'components/swiper.scss';
+@import 'components/footer.scss';
+html {
+    scroll-behavior: smooth;
+    }
+
+html, body {
+    margin: 0em;;
+    padding: 0em;
+
+    font-family: 'Oswald', sans-serif;
+    background-color: #eaebe8;    
+}
+section {
+    height: 100vh;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+#trust-icon {
+    height: 380px;
+    background-image: url('../images/trust-icon.png');
+    background-size: 40em;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #eaebe8;
+
+    position: relative;
+
+    .section__title {
+        position: absolute;
+        top: 35%;
+        right: 38%;
+
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+    }
+}
+
+#about {
+    height: 850px;
+    background-color: #eaebe8;
+
+    @media screen and (max-width: 1000px) {
+        margin-left: 0;
+    }
+
+    .link {
+        width: 30em; 
+        border-bottom: 3px solid #7c7c40;  
+        
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+
+        margin-left: 11em;
+
+        a {
+            color: black;
+            margin: 0 1em;
+        }
+
+        @media screen and (max-width: 1024px) {
+            margin-left: 5em;
+            margin-bottom: 3em;
+        }
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-text {
+        margin: 5em 6em;
+        margin-bottom: 2em;
+        padding: 0 2em;
+
+        @media screen and (max-width: 1024px) {
+            margin: 2em;
+        }
+
+    }
+    .about-img {
+        padding: 0 8em;
+
+        display: block;
+        width: 40em;
+        height: auto;
+    }
+
+    .text {
+        display: block;
+        width: 30em;
+    } 
+    .col-title {
+        display: flex;
+        flex: row wrap;
+        margin: 1em 0;
+        width: 13em;
+        margin-left: 5em;
+
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+    .col-text {
+        margin: 1em;
+        
+        width: 35em;
+        color: #cccc99;
+        font-size: 16px;
+        line-height: 2;
+
+        &__p {
+            margin: 0 5em;
+            padding: 1em 0;
+        }
+    }
+
+    .about-img {
+        margin: 0;
+        img {
+            margin: 1em 0;
+        }
+    }   
+
+    @media screen and (max-width: 1300px) {
+        #about {
+            height: 500px;
+        }
+        img {
+            display: none;
+        }
+    }
+}
+
+#faqs {
+    height: 80vh;
+
+    .accordion-button {
+        font-family: 'Oswald', sans-serif;
+        font-size: 16px;
+        letter-spacing: 2px;
+
+        p {
+            padding: 0;
+            margin: 0;
+        }
+
+    }
+    .bi-plus {
+        font-size: 34px;
+        font-weight: 300;
+        opacity: 1;
+        color: #666633;
+
+        padding-right: 1em;
+        padding: 0;
+        margin: 0;
+    }
+
+    .title {
+        font-family: 'Oswald', sans-serif;
+        font-size: 24px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+    .questions {
+        width: 50em;
+        margin-left: 15em;
+    }
+    .accordion-button {
+        opacity: none;
+    }
+
+    .accordion-item {
+        &:hover {
+            border: 3px solid #666633;
+        }
+        .accordion-button:hover, 
+        .accordion-button:active, 
+        .accordion-button:focus {
+            background-color:  #eaebe8;    
+            border: none;
+            color: black;
+        }
+        .accordion-header:hover, 
+        .accordion-button:active,
+        .accordion-button:focus {
+            background-color:  #eaebe8;    
+            border: none;
+            color: black;
+        }
+        .accordion-button:after{
+               
+        }
+    }
+
+    @media screen and(max-width: 1024px) {
+        .questions {
+            width: 40em;
+            margin-left: 5em; 
+        }
+        
+    }
+}
+#quotes {
+    .content {
+        position: relative;
+    }
+    .text {
+        position: absolute;
+        top: 30%;
+        opacity: 0.7;
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .title-text, .subtitle {
+        width: 28em;
+        color: white;
+
+        font-family: 'Oswald', sans-serif;
+        font-size: 16px;
+        letter-spacing: 3px;
+        font-weight: 300;
+    }
+    .subtitle {
+        position: relative;
+        padding: 1em;
+    }
+    .subtitle:before {
+        display: block;
+        content: '';
+        width: 40px;                
+        position: absolute;              
+        border-bottom: 3px solid white; 
+        top:50%;                         
+        right: 270px;      
+    }
+
+    @media screen and(max-width: 1024px) {
+        height: 50vh;
+    }
+
+}
+

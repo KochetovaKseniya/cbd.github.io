@@ -1,0 +1,97 @@
+.footer {
+    height: 400px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #666633;
+
+    .column {
+        display: flex;
+        flex: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .title {
+        text-align: center;
+        font-size: 45px;
+        
+        position: relative;
+    }
+    
+    .title p:before {
+        display: block;
+        content: '';
+        width: 300px;                
+        position: absolute;              
+        border-bottom: 3px solid #666633; 
+        top:50%;                         
+        right: 150px;      
+    }
+    .title p:after {
+        display: block;
+        content: '';
+        width: 300px;                
+        position: absolute;              
+        border-bottom: 3px solid #666633;   
+        top:50%;                         
+        left: 150px;      
+    }
+    .policy, .info, .subscribe, .year {
+        letter-spacing: 4px;
+    }
+    .year {
+        font-size: 12px;
+    }
+    .social-items {
+        padding-left: 3em;
+        position: relative;
+
+        .bi {
+            font-size: 20px;
+        }
+    }
+    .vl {
+        border-left: 3px solid #666633; 
+        height: 60px;
+        position: absolute;
+        margin-top: 3.5em;
+        margin-left: 1.5em;
+        left: 50%;        
+    }
+    a {
+        color: #666633;
+    }
+    .button {
+        position: relative;
+        border: 1px solid #666633; 
+        margin: 0;
+        padding: 0;
+
+        .bi {
+            font-size: 24px;
+        }
+
+    }
+    .form-input {
+        width: 26em;
+        height: 4em;
+        background-color: #eaebe8;    
+        //border: 1px solid #666633; 
+
+    }
+    input[type="search"]::placeholder {
+        color:  #666633; 
+        letter-spacing: 4px;
+    }
+    .form-btn {
+        height: 4em;
+        width: 6em;
+        border: none;
+        margin: 0;
+        padding: 1em;
+        border-left: 1px solid #666633; 
+
+        position: absolute;
+        right: 0;
+    } 
+
+}

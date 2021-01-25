@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBD</title>
+  <script src="./js/main.js"></script>
+  <link rel="stylesheet" href="./css/main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link type="image/x-icon" rel="shortcut icon" href="…/favicon.ico">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <header class="d-flex flex-column">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="menu collapse navbar-collapse fixed-top d-flex justify-content-between align-items-center" id="navbarNavAltMarkup">
+          <div class="list navbar-nav my-1 mx-5">
+            <a class="nav-link active mx-2" aria-current="page" href="#">Home</a>
+            <a class="nav-link mx-2" href="#products">Products</a>
+            <a class="nav-link mx-2" href="#faqs">faqs</a>
+            <a class="nav-link mx-2" href="#contact" tabindex="-1" aria-disabled="true">Contact us</a>
+          </div>
+  
+          <a class="navbar-brand my-1" href="#">CBD</a>
+  
+          <form class="form d-flex" data-bs-toggle="collapse">
+            <button class="btn btn-outline-success px-4" type="submit">Login</button>
+            <input class="form-input form-control" type="search" placeholder="Search" aria-label="Search">
+            <button class="form-btn btn btn-outline-success d-flex align-items-center px-4" type="submit"><i class="bi bi-search"></i>    Search</button>
+            <button class="form-btn btn btn-outline-success px-4" type="submit">cart (0)</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  
+    <div class="container d-flex flex-column justify-content-center">
+      <div class="caption">
+        <div class="caption-title">
+          <h1>Enhancing Life </h1>
+          <p>Excelling in Care</p>
+        </div>
+        <div class="caption-subtitle">
+          <p>Choose Wisely. Choose CBD.</p>
+        </div>
+        <div class="caption__btn">
+          <button class="btn btn-outline-success px-4" type="submit">
+            Start shopping
+            <i class="bi bi-dash"></i></button>
+        </div>
+        <div class="caption-link">
+          <a class="btn-form" href="#products">See all products<i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>    
+    </div>
+  
+    <div class="left-bot">
+      <p>cbd potion heath</p>
+    </div>
+  
+  </header>
+
+  <main>
+    <section class="section" id="trust-icon">
+      <div class="container">
+        <div class="section__title">
+          <p>We are what we are</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="column d-flex flex-column  justify-content-center">
+        <div class="link d-flex flex-row">
+          <a href="#">What is CBD?</a>
+          <a href="#">Benefits</a>
+          <a href="#">Our diference</a>
+        </div>
+        <div class="about-text d-flex flex-row">
+          <div class="text d-flex flex-column">
+            <div class="col-title">
+              <p>What it is and how it works</p>
+            </div>
+            <div class="col-text">
+              <p class="col-text__p">CBD is short for cannabidiol. It is a phytocannabinoid found in hemp and known for supporting the body and mind in many ways.*
+              Charlotte’s Web products have cannabinoids with CBD extract.</p>
+
+              <p class="col-text__p"> Not to be confused with oil from hemp seeds (which doesn’t contain cannabinoids),
+              CBD comes from the flowers and leaves of the hemp plant.</p>
+
+              <p class="col-text__p">Why does CBD work? The human body has a vast network of receptors, the endocannabinoid system.</p>
+            </div>
+          </div>
+          <div class="about-img d-flex flex-column">
+            <img src="../images/img-one.png" alt="">
+            <img src="../images/img-two.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="products">
+        <div class="products">
+            <div class="products__title">
+                <p>cbd featured proroducts</p>
+            </div>
+             <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide d-flex flex-column p-2">
+                        <div class="content">
+                            <!-- Add rating -->
+                            <div class="rating-mini">
+                                <span class="active"></span>	
+                                <span class="active"></span>    
+                                <span class="active"></span>  
+                                <span class="active"></span>    
+                                <span class="active"></span>
+                            </div>
+                            <div class="title">cbd 500 mg orange flavor ticture</div>
+                            <div class="img">
+                                <img src="../images/card-1.png" alt="">
+                            </div>
+                            <div class="row">
+                                <div class="price">$49.99 usd</div>
+                                <button class="btn btn-outline-success px-4" type="submit">
+                                    Shop
+                                    <i class="bi bi-dash"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="content">
+                            <!-- Add rating -->
+                            <div class="rating-mini">
+                                <span class="active"></span>	
+                                <span class="active"></span>    
+                                <span class="active"></span>  
+                                <span class="active"></span>    
+                                <span class="active"></span>
+                            </div>
+                            <div class="title">cbd 500 mg orange flavor ticture</div>
+                            <div class="img">
+                                <img src="../images/card-2.png" alt="">
+                            </div>
+                            <div class="row">
+                                <div class="price">$49.99 usd</div>
+                                <button class="btn btn-outline-success px-4" type="submit">
+                                    Shop
+                                    <i class="bi bi-dash"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="content">
+                            <!-- Add rating -->
+                            <div class="rating-mini">
+                                <span class="active"></span>	
+                                <span class="active"></span>    
+                                <span class="active"></span>  
+                                <span class="active"></span>    
+                                <span class="active"></span>
+                            </div>
+                            <div class="title">cbd 500 mg orange flavor ticture</div>
+                            <div class="img">
+                                <img src="../images/card-3.png" alt="">
+                            </div>
+                            <div class="row">
+                                <div class="price">$49.99 usd</div>
+                                <button class="btn btn-outline-success px-4" type="submit">
+                                    Shop
+                                    <i class="bi bi-dash"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="content">
+                            <!-- Add rating -->
+                            <div class="rating-mini">
+                                <span class="active"></span>	
+                                <span class="active"></span>    
+                                <span class="active"></span>  
+                                <span class="active"></span>    
+                                <span class="active"></span>
+                            </div>
+                            <div class="title">cbd 500 mg orange flavor ticture</div>
+                            <div class="img">
+                                <img src="../images/card-1.png" alt="">
+                            </div>
+                            <div class="row">
+                                <div class="price">$49.99 usd</div>
+                                <button class="btn btn-outline-success px-4" type="submit">
+                                    Shop
+                                    <i class="bi bi-dash"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="content">
+                            <!-- Add rating -->
+                            <div class="rating-mini">
+                                <span class="active"></span>	
+                                <span class="active"></span>    
+                                <span class="active"></span>  
+                                <span class="active"></span>    
+                                <span class="active"></span>
+                            </div>
+                            <div class="title">cbd 500 mg orange flavor ticture</div>
+                            <div class="img">
+                                <img src="../images/card-3.png" alt="">
+                            </div>
+                            <div class="row">
+                                <div class="price">$49.99 usd</div>
+                                <button class="btn btn-outline-success px-4" type="submit">
+                                    Shop
+                                    <i class="bi bi-dash"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="content">
+                            <!-- Add rating -->
+                            <div class="rating-mini">
+                                <span class="active"></span>	
+                                <span class="active"></span>    
+                                <span class="active"></span>  
+                                <span class="active"></span>    
+                                <span class="active"></span>
+                            </div>
+                            <div class="title">cbd 500 mg orange flavor ticture</div>
+                            <div class="img">
+                                <img src="../images/card-2.png" alt="">
+                            </div>
+                            <div class="row">
+                                <div class="price">$49.99 usd</div>
+                                <button class="btn btn-outline-success px-4" type="submit">
+                                    Shop
+                                    <i class="bi bi-dash"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <!-- <div class="swiper-pagination"></div> -->
+            </div>
+    
+            <div class="button">
+                <div class="button-next"><i class="bi bi-arrow-right"></i></div>
+                <div class="button-prev"><i class="bi bi-arrow-left"></i></div>
+            </div>
+    
+        </div>
+      
+        
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          navigation: {
+              nextEl: '.button-next',
+              prevEl: '.button-prev',
+          }
+        });
+        </script>
+        
+    </section>>
+
+    <section class="section" id="faqs">
+      <div class="container">
+        <div class="title d-flex justify-content-center m-5">
+          <p>frequently asked questions</p>
+        </div>
+        <div class="accordion questions" id="accordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <i class="bi bi-plus"></i> 
+                <p>What is Cannabidiol (CBD)?</p>
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Because CBD from hemp has no psychoactive effects, the purchase, sales, or possession of hemp CBD products are completely legal in all 50 States.</p> </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <i class="bi bi-plus"></i> 
+                <p>Is Hemp Derived Cannabidiol (CBD) Legal?</p>
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Because CBD from hemp has no psychoactive effects, the purchase, sales, or possession of hemp CBD products are completely legal in all 50 States.</p></div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <i class="bi bi-plus"></i> 
+                <p>Are there any negative side effects?</p>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Because CBD from hemp has no psychoactive effects, the purchase, sales, or possession of hemp C
+                  BD products are completely legal in all 50 States.</p></div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <i class="bi bi-plus"></i> 
+                <p>Do you offer a return policy?</p>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Because CBD from hemp has no psychoactive effects, the purchase, sales, or possession of hemp CBD products are completely legal in all 50 States.</p>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+
+    </section>
+
+    <section>
+      <section id="quotes">
+      
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <div class="content d-flex flex-column">
+                          <img src="../images/bg-emotions.png" class="img-carousel d-block w-100" alt="...">
+                          <div class="text d-flex flex-column">
+                              <div class="rating-mini m-5">
+                                  <span class="active"></span>	
+                                  <span class="active"></span>    
+                                  <span class="active"></span>  
+                                  <span class="active"></span>    
+                                  <span class="active"></span>
+                              </div>
+                              <p class="title-text">
+                                  I have tried another product after using this one successfully, and I am Back for good!
+                                  The flavour, the lightness of the oil and the health benefits I have gotten with oil are amazing!
+                              </p>
+                              <p class="subtitle">Mark J.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item active">
+                      <div class="content d-flex flex-column">
+                          <img src="../images/bg-emotions.png" class="img-carousel d-block w-100" alt="...">
+                          <div class="text d-flex flex-column">
+                              <div class="rating-mini m-5" id="raiting">
+                                  <span class="active"></span>	
+                                  <span class="active"></span>    
+                                  <span class="active"></span>  
+                                  <span class="active"></span>    
+                                  <span class="active"></span>
+                              </div>
+                              <p class="title-text">
+                                  I have tried another product after using this one successfully, and I am Back for good!
+                                  The flavour, the lightness of the oil and the health benefits I have gotten with oil are amazing!
+                              </p>
+                              <p class="subtitle">Mark J.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item active">
+                      <div class="content d-flex flex-column">
+                          <img src="../images/bg-emotions.png" class="img-carousel d-block w-100" alt="...">
+                          <div class="text d-flex flex-column">
+                              <div class="rating-mini m-3">
+                                  <span class="active"></span>	
+                                  <span class="active"></span>    
+                                  <span class="active"></span>  
+                                  <span class="active"></span>    
+                                  <span class="active"></span>
+                              </div>
+                              <p class="title-text">
+                                  I have tried another product after using this one successfully, and I am Back for good!
+                                  The flavour, the lightness of the oil and the health benefits I have gotten with oil are amazing!
+                              </p>
+                              <p class="subtitle">Mark J.</p>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="button-content">
+                      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                      </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+    </section>
+  </main>
+  <footer class="footer" id="contact">
+      <div class="container d-flex flex-column justify-content-center align-items-center">
+          <div class="title">
+              <p>cbd</p>
+          </div>
+          <div class="d-flex flex-row m-1 justify-content-center my-5">
+              <div class="policy d-flex flex-column mx-5 text-center">
+                  <a href="#" class="py-2">privacy policy</a>
+                  <a href="#" class="py-2">terms of use</a>
+                  <a href="#" class="py-2">return policy</a>
+              </div>
+              <div class="social-items d-flex flex-row mx-5 text-center mx-2">
+                  <a href="#" class="mx-3"><i class="bi bi-facebook"></i></a> 
+                  <a href="#" class="mx-3"><i class="bi bi-twitter"></i></a> 
+                  <a href="#" class="mx-3"><i class="bi bi-youtube"></i></a>
+                  <div class="vl"></div>
+              </div>
+              <div class="info d-flex flex-column mx-5 text-center">
+                  <a href="#" class="py-2">shopping info</a>
+                  <a href="#" class="py-2">returns / exchanges</a>
+                  <a href="#" class="py-2">contact</a>
+              </div>
+          </div>
+          <div class="subscribe d-flex m-3">
+              <a href="">subscribe to newsletter</a>
+          </div>
+          <div class="button">
+              <input class="form-input form-control" type="search" placeholder="Email" aria-label="Email">
+              <button class="form-btn btn btn-outline-success d-flex align-items-center px-4" type="submit"><i class="bi bi-arrow-right"></i></button>
+          </div>
+          <div class="year m-5">
+              <p>© 2018. CbD health.</p>
+          </div>
+      
+      </div>
+  
+  </footer>
+
+  <script src="../package/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/jquery-2.2.3.min.js"></script>
+</body>
+</html>

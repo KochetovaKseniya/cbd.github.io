@@ -1,0 +1,20 @@
+.btn {
+  color: white;
+  border: 1px solid white;
+  border-top: none;
+  border-bottom: none;
+  text-transform: uppercase;
+
+  padding: 1em;
+  margin: 0;
+
+  color: white;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.btn:hover {
+  background-color: #666633;
+  border: none;
+}
+
